@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.c6ae7d03.css",
-    "main.js": "/static/js/main.c6d7122c.js",
-    "index.html": "/index.html",
-    "main.c6ae7d03.css.map": "/static/css/main.c6ae7d03.css.map",
-    "main.c6d7122c.js.map": "/static/js/main.c6d7122c.js.map"
+    "main.css": "/SGPA-CALCI/static/css/main.c6ae7d03.css",
+    "main.js": "/SGPA-CALCI/static/js/main.c6d7122c.js",
+    "index.html": "/SGPA-CALCI/index.html",
+    "main.c6ae7d03.css.map": "/SGPA-CALCI/static/css/main.c6ae7d03.css.map",
+    "main.c6d7122c.js.map": "/SGPA-CALCI/static/js/main.c6d7122c.js.map"
   },
   "entrypoints": [
     "static/css/main.c6ae7d03.css",
