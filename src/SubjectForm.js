@@ -31,7 +31,7 @@ export default function SubjectForm(props) {
       setAr(arr);
     }
     return (
-      <label key={itm.code} className="mx-4 col-md-4">
+      <label key={itm.code} className="mx-4 col-md-4 border rounded my-4 p-3">
         {itm.sub}
         <input
         max="100"
