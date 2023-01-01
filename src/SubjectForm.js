@@ -52,20 +52,21 @@ export default function SubjectForm(props) {
   return (
     <div>
       {res !== ""?
-        <h3 className="my-5 fw-bolder text-dark border border-dark rounded w-75 mx-auto p-4">
+        <h3 id="result" className="my-5 fw-bolder text-dark border border-dark rounded w-75 mx-auto p-4">
           YOUR SGPA IS : {res.toFixed(3)}
         </h3>
       : ""}
       <form onSubmit={calculate}>
         {frm}
         <br />
-        <button
-          type="button"
-          className="btn btn-primary px-5 py-3 mt-4"
-          onClick={handleSubmit}
-        >
-          Calculate
-        </button>
+        <a href="#result" style={{textDecoration:"none",color:"white",fontSize:"1.2rem"}}>
+          <button
+            type="button"
+            className="btn btn-primary px-5 py-3 mt-4"
+            onClick={handleSubmit}
+            >Calculate</button>
+        </a>
+        
       </form>
       
     </div>
